@@ -22,7 +22,7 @@ function App() {
 
   // Get a random hoot from the API
   async function getHoot() {
-    let hootArray = [];
+    let hootArray = [{ rageHoot }];
     let randomID = Math.floor(Math.random() * 2500);
     const response = await fetch(Hapi + "/" + randomID);
     hootArray.push(await response.json());
