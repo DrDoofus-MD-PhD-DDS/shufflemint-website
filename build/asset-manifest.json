@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a238b140.css",
+    "main.js": "/static/js/main.a3dc9a18.js",
+    "static/media/omgkirby-SM.png": "/static/media/omgkirby-SM.08d80df8d71e6a37a168.png",
+    "static/media/ragehoot.png": "/static/media/ragehoot.41763f67c9700a7b2159.png",
+    "static/media/shufflemint-green.png": "/static/media/shufflemint-green.47c255a833ed231bbeae.png",
+    "static/media/ecoframe.png": "/static/media/ecoframe.d9b03cf2882879772436.png",
+    "index.html": "/index.html",
+    "main.a238b140.css.map": "/static/css/main.a238b140.css.map",
+    "main.a3dc9a18.js.map": "/static/js/main.a3dc9a18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a238b140.css",
+    "static/js/main.a3dc9a18.js"
+  ]
+}

@@ -1,0 +1,48 @@
+/************************************************************/
+/*  Overwriting Custom Bootstrap Values
+/*      body-bg, body-color, font-family-sans-serif, primary
+
+
+colors:
+Primary         - $primary    Background of everything if no color set
+Body Background - $body-bg    Visible if there is no background image
+Body Color      - $body-color Text Color
+
+Lava Red      - #CF1020
+Back Gradient - #202020 to #606060
+Backdrop      - #101010  <-- brand color
+Menu Hover    - #404040 (middle of the gradient)
+Topbar        - #000    (where menu sits)
+Text          - #FFFFFF
+Anchor Text   - #eea900 F6E962   <-- change to brand color
+Anchor Active - #eea300
+Anchor Hover  - #eea300
+Text Offset   - #3a12a3
+
+/************************************************************/
+@import "colors";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Harmattan&display=swap");
+
+$primary: #ffffff;
+$body-bg: #000000;
+$body-color: #ffffff;
+$font-family-sans-serif: "Spectral", sans-serif;
+
+/* This must come after bootstrap overrides */
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Non-bootstrap*/
+
+body {
+  margin: 0;
+  /*  background: url(/assets/shufflebanner-600x200.png) center center / cover
+    no-repeat fixed; */
+  background-color: $body-bg;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, "Courier New", monospace;
+}

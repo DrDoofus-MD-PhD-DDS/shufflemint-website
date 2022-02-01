@@ -1,0 +1,21 @@
+$btn-background: #606060;
+$btn-border: #cf1020;
+$btn-color: #000000;
+$hover-background: #000000;
+
+@mixin button-variant($background, $border, $color) {
+  background-color: $btn-background;
+  border: 2px solid $btn-border;
+  color: #fff;
+
+  &:hover {
+    border: 2px solid $btn-background;
+    background-color: $hover-background;
+  }
+}
+
+.btn-primary {
+  &.basic {
+    @include button-variant($btn-background, $btn-border, $btn-color);
+  }
+}

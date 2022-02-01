@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "javascript": "html"
+    },
+    "cSpell.words": ["shufflemint"]
+  }
+}

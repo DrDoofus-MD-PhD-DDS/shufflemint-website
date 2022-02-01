@@ -1,0 +1,200 @@
+// @use 'colors';
+$app-color: #d11919;
+$topbar-color: #020202;
+$b1: 1px solid red;
+$lava: #cf1020;
+$link-color: #ffffff;
+$mint-color: #3eb489;
+$standard-bg: #303030;
+$standard-text: #ffffff;
+$peppermint: #f1b8cb;
+
+.App {
+  width: 100%;
+  height: 100%;
+
+  header {
+    margin-top: 1rem;
+    height: 8rem;
+    text-align: center;
+    /* background: url(/assets/shufflemint-banner-3200x200.png) bottom center
+      no-repeat;*/
+    background-size: contain;
+    background-color: $topbar-color;
+    border: none;
+    border-bottom: 2px solid $mint-color;
+
+    outline: 1px solid black;
+    box-shadow: 0px 5px 10px 1px $peppermint, 0px 0px 10px 5px #000000 inset;
+
+    > div {
+      text-align: center;
+    }
+  }
+
+  footer {
+    width: 360px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 4px;
+    margin-top: 10px;
+  }
+
+  .loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    background: rgba(70, 45, 25, 0);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+
+  .credits {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: small;
+    bottom: 5px;
+  }
+}
+
+.main-container {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.fixed {
+  position: fixed;
+  width: 20rem;
+}
+
+.shuffleMintLogo {
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+
+.tagline {
+  margin-left: 0.5em;
+  font-size: 1.1rem;
+}
+
+/* ecosystem hoot*/
+.frame {
+  margin-top: 2rem;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+}
+
+.cryptohootIMG {
+  height: 5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.hooteco {
+  height: 6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Navigation */
+.scrollspy-example {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.bold {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.video-container {
+}
+
+#hootenany-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid antiquewhite;
+}
+
+.caption {
+  font-size: small;
+  margin-top: 0.2rem;
+}
+
+/* links */
+a,
+nav-link {
+  color: $peppermint !important;
+  font-size: 1.4rem;
+}
+
+a:hover,
+nav-link:hover {
+  color: $mint-color !important;
+  font-size: 1.4rem;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+  border: 2px solid $mint-color;
+  border-style: outset;
+  padding: 2rem;
+  background-color: #303030;
+  outline: 1px solid black;
+  box-shadow: 0px 0px 10px 5px $peppermint, 0px 0px 10px 5px #000000 inset;
+  text-align: center;
+}
+
+section > h1 {
+  margin-bottom: 3rem;
+}
+
+section > .container {
+  min-height: 10rem;
+}
+
+.carousel {
+  min-height: 30rem;
+}
+
+/* list group */
+/* until I get to overrinding */
+.list-group-item-primary {
+  background-color: $standard-bg !important;
+  // color: $standard-text !important;
+  color: $mint-color !important;
+}
+
+.projectIMG {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: relative !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  min-height: 4rem;
+}
+
+.ecotext {
+  color: $mint-color;
+}
+
+.lamewrapper {
+  margin-left: 40%;
+  width: 100%;
+}
