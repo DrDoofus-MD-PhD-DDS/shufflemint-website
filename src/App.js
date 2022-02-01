@@ -133,7 +133,7 @@ function App() {
       <div className="credits">
         <div className="frame">
           <img
-            src={randomHoot}
+            src={rageHoot}
             className="cryptohootIMG"
             alt="Random CryptoHoot"
           />
