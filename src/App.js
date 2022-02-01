@@ -18,11 +18,11 @@ import ecoFrame from "./assets/ecoframe.png";
 const Hapi = "https://www.cryptohoots.com/api/hoots";
 
 function App() {
-  const [randomHoot, setRandomHoot] = useState({ rageHoot });
+  const [randomHoot, setRandomHoot] = useState();
 
   // Get a random hoot from the API
   async function getHoot() {
-    let hootArray = [{ rageHoot }];
+    let hootArray = [];
     let randomID = Math.floor(Math.random() * 2500);
     const response = await fetch(Hapi + "/" + randomID);
     hootArray.push(await response.json());
