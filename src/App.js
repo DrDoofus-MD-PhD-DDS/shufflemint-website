@@ -15,9 +15,10 @@ import rageHoot from "./assets/ragehoot.png";
 import ecoFrame from "./assets/ecoframe.png";
 
 // for local development ... although make default to random api pull eventually
-const Hapi = "https://www.cryptohoots.com/api/hoots";
+//const Hapi = "https://www.cryptohoots.com/api/hoots";
 
 function App() {
+  /*
   const [randomHoot, setRandomHoot] = useState();
 
   // Get a random hoot from the API
@@ -28,7 +29,7 @@ function App() {
     hootArray.push(await response.json());
     setRandomHoot(hootArray[0]);
   }
-
+*/
   return (
     <div className="App">
       <header>
